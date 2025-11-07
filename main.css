@@ -7,8 +7,13 @@
 
 }
 
-nav {
+header{
+    position: fixed;
+    min-width: 100vw;
+}
 
+nav {
+    padding: 16px 16px;
     min-height: 80px;
     background-color: #1f1f1f;
     text-align: center;
@@ -91,7 +96,8 @@ nav ul li a:active{
 
 main {
 
-    height: 598px;
+    padding-top: 100px;
+    height: 798px;
     
 
 }
@@ -232,5 +238,62 @@ p.footerstyle {
     padding-top: 20px; ;
 
 
+
+}
+
+/* Services dropdown menu */
+#services-li {
+    position: relative;
+}
+
+#services-li:hover #services-menu{
+
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+
+
+}
+
+#services-menu {
+
+    position:absolute;
+    top: 110%;
+    left: 0px;
+    z-index: 1;
+    margin-bottom: 0px;
+    padding: 4px 16px;
+    background-color: #252525;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-2vh);
+    transition: opacity 0.3s, transform 0.15s;
+
+}
+
+#services-menu li {
+    margin-right: 0px;
+    padding-top: 4px 0px;
+
+}
+
+#services-menu a {
+    display: inline-block;
+    padding-top: 10px ;
+    white-space:nowrap;
+}
+
+/* page Sections and content */
+
+main section{
+    height: 200px;
+}
+
+.section-a {
+    background-color: blue;
+}
+
+.section-b {
+    background-color: yellow;
 
 }
