@@ -7,13 +7,8 @@
 
 }
 
-header{
-    position: fixed;
-    min-width: 100vw;
-}
-
 nav {
-    padding: 16px 16px;
+
     min-height: 80px;
     background-color: #1f1f1f;
     text-align: center;
@@ -96,8 +91,7 @@ nav ul li a:active{
 
 main {
 
-    padding-top: 100px;
-    height: 798px;
+    height: 598px;
     
 
 }
@@ -116,7 +110,7 @@ main {
     padding: 25px;
     display: inline-block;
     width: 1213px;
-    height: 600px;
+    height: 800px;
     background-color: #479af2;
     color: white;
  
@@ -148,7 +142,7 @@ section.leftsectionsizesstyle {
     padding: 10px;
     display: inline-block;
     width: 300px;
-    height: 200px;
+    height: 50px;
 
 }
 
@@ -157,7 +151,7 @@ section.leftsectionsizesstyle {
 
     display: inline-block;
     width: 300px; 
-    height: 600px;
+    height: 800px;
     vertical-align: top;
     padding: 0px;
     background-color: #302f2f ;
@@ -169,7 +163,7 @@ section.leftsectionsizesstyle {
 #webtoolkitheader {
 
 
-    padding: 10px;
+    padding-top: 30px;
     color: rgb(219, 219, 219);
 
     
@@ -205,7 +199,8 @@ li.modifier{
 
 .navegationbox {
 
-    padding-top: 30px ;
+    margin-top: 200px ;
+    padding-top: 40px; ;
 
 }
 
@@ -295,5 +290,16 @@ main section{
 
 .section-b {
     background-color: yellow;
+
+}
+
+.backtotopbutton {
+
+    position: fixed;
+    height: 80px;
+    width: 80px;
+    right: 40px;
+    bottom: 20px;
+
 
 }
