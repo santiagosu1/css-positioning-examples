@@ -15,6 +15,8 @@ nav {
 
 }
 
+
+
 nav ul {
 
     list-style: none;
@@ -88,16 +90,20 @@ nav ul li a:active{
     color: green ;
 }
 
-
-main {
-
-    height: 598px;
-    
-
+header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1513px;
+    z-index: 1;
+    background-color: #1f1f1f;
 }
+
 
 /* Main & Rightsidebar css */
 .page-wrapper {
+
+    margin-top: 80px;
 
     width: 1513px;
     height: 600px;
@@ -107,15 +113,16 @@ main {
 
 .content-area {
 
+
+
     padding: 25px;
     display: inline-block;
     width: 1213px;
     height: 800px;
     background-color: #479af2;
     color: white;
- 
-
     font-size: 16px;
+    
 
 }
 
@@ -129,9 +136,14 @@ main {
     width: 850px;
     height: 50px;
     text-align: center;
+
+
+}
+
+header.leftsectionsizesstyle {
+    
     background-color: #1F4E79;
     border: 5px solid rgb(194, 227, 255);
-
 
 }
 
@@ -143,21 +155,45 @@ section.leftsectionsizesstyle {
     display: inline-block;
     width: 300px;
     height: 50px;
+    background-color: #1F4E79;
+    border: 5px solid rgb(194, 227, 255);
 
 }
+
+div.leftsectionsizesstyle {
+
+    margin-left: 50px;
+    padding: 10px;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    
+
+
+}
+
+img.worldsize {
+
+    width: 300px;
+    height: 300px;
+}
+
 
 
 .rightsidebar {
 
+
     display: inline-block;
     width: 300px; 
     height: 800px;
+
     vertical-align: top;
     padding: 0px;
     background-color: #302f2f ;
     border-left: 0px;
-    /* margin-left: 17px; */
     font-size: 16px;
+
+
 }
 
 #webtoolkitheader {
@@ -201,8 +237,11 @@ li.modifier{
 
     margin-top: 200px ;
     padding-top: 40px; ;
+    
 
 }
+
+
 
 footer {
 
@@ -220,11 +259,13 @@ div.spacerfooter {
     border: 1px solid rgb(78, 77, 77);
     display: inline-block;
     width: 1350px;
+    
 
 
 
 
 }
+
 
 p.footerstyle {
 
@@ -296,10 +337,11 @@ main section{
 .backtotopbutton {
 
     position: fixed;
-    height: 80px;
-    width: 80px;
-    right: 40px;
-    bottom: 20px;
+    height: 40px;
+    width: 40px;
+    left: 10px;
+    top: 85px;
+
 
 
 }
